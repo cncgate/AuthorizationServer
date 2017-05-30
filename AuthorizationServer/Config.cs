@@ -31,7 +31,7 @@ namespace AuthorizationServer
 
                         ClientSecrets =
                         {
-                            new Secret("secret1".Sha256())
+                            new Secret("secret1")
                         },
                         AllowedScopes = { "scope.readaccess" }                        
                     },
@@ -42,7 +42,7 @@ namespace AuthorizationServer
 
                         ClientSecrets =
                         {
-                            new Secret("secret2".Sha256())
+                            new Secret("secret2")
                         },
                         AllowedScopes = { "scope.fullaccess" }
                     }
